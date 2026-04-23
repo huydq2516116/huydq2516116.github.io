@@ -77,10 +77,12 @@ body {
     border-radius: 10px;
     width: 250px;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
+    opacity: 0.8;
 }
 
 /* FOOTER */

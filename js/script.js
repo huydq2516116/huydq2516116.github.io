@@ -13,3 +13,7 @@ window.addEventListener("scroll", () => {
         navbar.style.background = "#020617";
     }
 });
+
+function goToPage(href) {
+  window.location.href = href;
+}
